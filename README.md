@@ -11,7 +11,7 @@ http://localhost:8080/Tweets/persistTweets?languageList=es,eng&maxFollowers=500
 http://localhost:8080/Tweets
 
 3) Validate Tweet by id:
-http://localhost:8080/Tweets/validarTweet/1
+http://localhost:8080/Tweets/validarTweet/1 (id database)
 
 4) Get Valid Tweets: 
 http://localhost:8080/Tweets/valids
@@ -20,12 +20,13 @@ http://localhost:8080/Tweets/valids
 http://localhost:8080/Tweets/hashtags?maxHashtags=10
 
 
-application.properties example, in gitignore
+application.properties example,dont uploaded in gitignore
 ---------------------------------------------------
 spring.mvc.view.prefix:/WEB-INF/jsp/
 
 spring.mvc.view.suffix:.jsp
 
+server.port = 8080
 
 spring.datasource.url=jdbc:h2:mem:testdb&characterEncoding=UTF-8;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
 
@@ -39,6 +40,8 @@ spring.jpa.properties.hibernate.hbm2ddl.auto=update
 
 spring.jpa.hibernate.ddl-auto=update
 
+
+
 ConsumerKey=
 
 ConsumerSecret=
@@ -48,4 +51,4 @@ AccessToken=
 AccessTokenSecret=
 
 
-server.port = 8080
+
