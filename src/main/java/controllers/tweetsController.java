@@ -91,7 +91,7 @@ public class tweetsController {
 				
 		   }
 	} catch (IndexOutOfBoundsException e) {
-		json ="Todavia no hay suficientes hastags para la cantidad requerida" + maxHashtags;
+		json ="Todavia no hay suficientes hashtags para la cantidad requerida" + maxHashtags;
 	}
 	  
 

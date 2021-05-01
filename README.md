@@ -11,7 +11,7 @@ http://localhost:8080/Tweets/persistTweets?languageList=es,eng&maxFollowers=500
 http://localhost:8080/Tweets
 
 3) Validate Tweet by id:
-http://localhost:8080/Tweets/validarTweet/1 (id database)
+http://localhost:8080/Tweets/validarTweet/1 (id tweet in database)
 
 4) Get Valid Tweets: 
 http://localhost:8080/Tweets/valids
