@@ -22,9 +22,7 @@ http://localhost:8080/Tweets/hashtags?maxHashtags=10
 
 application.properties example,dont uploaded in gitignore
 ---------------------------------------------------
-spring.mvc.view.prefix:/WEB-INF/jsp/
 
-spring.mvc.view.suffix:.jsp
 
 server.port = 8080
 

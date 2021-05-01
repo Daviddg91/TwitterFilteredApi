@@ -17,7 +17,6 @@ import twitter4j.User;
 @Entity
 public class Hashtags {
 
-
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Id
 	private long id;
@@ -27,9 +26,5 @@ public class Hashtags {
 	public void setName(String name) {
 		this.name = "#"+name;
 	}
-
-
-	
-	 
 
 }

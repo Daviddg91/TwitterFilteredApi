@@ -25,7 +25,6 @@ public class Tweets {
 	
 	private GeoLocation location;
 	private boolean valid;
-	
 	public void setUser(long l) {
 		this.user = l;
 	}
