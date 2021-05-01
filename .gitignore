@@ -23,4 +23,5 @@ nbdist/
 .nb-gradle/
 
 ### Spring.boot application.properties ###
+
  /src/main/resources/application.properties 
