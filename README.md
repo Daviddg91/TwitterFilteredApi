@@ -5,7 +5,7 @@ Api Rest links:
 ---------------------------
 
 1)Config results Filtered Tweets:
-http://localhost:8080/Tweets/persistTweets?languageList=es,eng&maxFollowers=500
+http://localhost:8080/Tweets/persistTweets?languageList=it,pr,fr&maxFollowers=500
 
 2) Get Filtered Tweets (refresh for see more streams filtered):
 http://localhost:8080/Tweets
@@ -22,7 +22,7 @@ http://localhost:8080/Tweets/hashtags?maxHashtags=10
 Links for heroku:
 ---------------------------------
 1)Config results Filtered Tweets:
-https://twitter-filtered-stream.herokuapp.com/Tweets/persistTweets?languageList=es,eng&maxFollowers=500
+https://twitter-filtered-stream.herokuapp.com/Tweets/persistTweets?languageList=pr,jp&maxFollowers=500
 
 2) Get Filtered Tweets(refresh for see more streams filtered):
 https://twitter-filtered-stream.herokuapp.com/Tweets

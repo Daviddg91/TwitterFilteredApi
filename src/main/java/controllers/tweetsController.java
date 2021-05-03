@@ -37,7 +37,6 @@ public class tweetsController {
 	@RequestMapping("/persistTweets")
 	   public String consumeAndPersistTweets(@RequestParam(defaultValue = "1500", required=false) String maxFollowers, @RequestParam(defaultValue = "" , required=false) String[] languageList) {
 		   String[] arrayFollow =  {"es","it","fr"};
-		    System.out.println(languageList);
 		    String[] arrayLanguages;
 		    if(languageList.length<=0) {
 		    	arrayLanguages = arrayFollow;

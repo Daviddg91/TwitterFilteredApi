@@ -146,6 +146,7 @@ public class TweetsFacades {
 	    AccessToken accessToken = new AccessToken(env.getProperty("AccessToken") ,env.getProperty("AccessTokenSecret"));
 	    twitterStream.setOAuthAccessToken(accessToken);
 	    
+	
 	    twitterStream.sample();
 	
 	}
