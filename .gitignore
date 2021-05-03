@@ -24,4 +24,4 @@ nbdist/
 
 ### Spring.boot application.properties ###
 
- src/main/resources/application.properties 
+src/main/resources/application.properties 
