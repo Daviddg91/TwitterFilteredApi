@@ -35,6 +35,8 @@ https://twitter-filtered-stream.herokuapp.com/Tweets/valids
 
 5) Get hashtags:
 https://twitter-filtered-stream.herokuapp.com/Tweets/hashtags?maxHashtags=10
+
+
 application.properties example,dont uploaded in gitignore
 ---------------------------------------------------
 
