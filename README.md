@@ -19,7 +19,22 @@ http://localhost:8080/Tweets/valids
 5) Get hashtags:
 http://localhost:8080/Tweets/hashtags?maxHashtags=10
 
+Links for heroku:
+---------------------------------
+1)Config results Filtered Tweets:
+https://twitter-filtered-stream.herokuapp.com/Tweets/persistTweets?languageList=es,eng&maxFollowers=500
 
+2) Get Filtered Tweets:
+https://twitter-filtered-stream.herokuapp.com/Tweets
+
+3) Validate Tweet by id:
+https://twitter-filtered-stream.herokuapp.com/Tweets/validarTweet/1 (id tweet in database)
+
+4) Get Valid Tweets: 
+https://twitter-filtered-stream.herokuapp.com/Tweets/valids
+
+5) Get hashtags:
+https://twitter-filtered-stream.herokuapp.com/Tweets/hashtags?maxHashtags=10
 application.properties example,dont uploaded in gitignore
 ---------------------------------------------------
 
