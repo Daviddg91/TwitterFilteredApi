@@ -7,7 +7,7 @@ Api Rest links:
 1)Config results Filtered Tweets:
 http://localhost:8080/Tweets/persistTweets?languageList=es,eng&maxFollowers=500
 
-2) Get Filtered Tweets:
+2) Get Filtered Tweets (refresh for see more streams filtered):
 http://localhost:8080/Tweets
 
 3) Validate Tweet by id:
@@ -24,7 +24,7 @@ Links for heroku:
 1)Config results Filtered Tweets:
 https://twitter-filtered-stream.herokuapp.com/Tweets/persistTweets?languageList=es,eng&maxFollowers=500
 
-2) Get Filtered Tweets:
+2) Get Filtered Tweets(refresh for see more streams filtered):
 https://twitter-filtered-stream.herokuapp.com/Tweets
 
 3) Validate Tweet by id:
